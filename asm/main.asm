@@ -1,10 +1,10 @@
 .n64 // Let armips know we're coding for the N64 architecture
 .open "cv64.z64", "cv64.mod.z64", 0 // Open the ROM file
 .include "asm/cv64.asm" // Include cv64.asm to tell armips' linker where to find the game's function(s)
-.headersize 0x7FFFF400 // Set the displacement between ROM and RAM addresses. 0x80000400 - 0x1000 = 0x7FFFF400
+.headersize 0x7FFFF400 // Set the displacement between ROM and RAM addresses. 0x80000400 (entrypoint, RAM) - 0x1000 (entrypoint, ROM) = 0x7FFFF400
 // The address we're going to insert our custom code to. We are going to overwrite some unused strings in memory that are related to the unused crash screen.
 .org 0x800A28F0
-.importobj "play_sound.o" // Import and link the compiled C object, overwriting the useless function with our new code
+.importobj "play_sound.o" // Import and link the compiled C object at the address above.
 
 /// Hooks and patches ///
 

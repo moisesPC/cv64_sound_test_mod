@@ -18,6 +18,8 @@ L = Set sound ID to 0
 
 **NOTE 2**: If after playing a specific sound ID, and then trying to load another sounds, the game doesn't play them, you may have to reset the game in order for it to work again. </br>It's recommended to do a savestate before starting playing the sounds if using an emulator to prevent having to reset if this ever happens.
 
+**NOTE 3**: If the game freezes in the Title Screen right before showing Malus, try resetting again, and then do NOT skip the opening cutscene as fast as it appears.</br>Wait a few seconds, and then skip it. I don't know if this is an emulation exclusive bug, though.
+
 ## Build Requirements
 
 ### The following tools are required to build:

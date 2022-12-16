@@ -14,7 +14,9 @@ R = Stop sound
 L = Set sound ID to 0
 ```
 
-**NOTE**: If after playing a specific sound ID, and then trying to load another sounds, the game doesn't play them, you may have to reset the game in order for it to work again. </br>It's recommended to do a savestate before starting playing the sounds if using an emulator to prevent having to reset if this ever happens.
+**NOTE 1**: This mod is not compatible with Easy mode, as the GOLD counter isn't displayed there. Use the mod on a Normal or Hard mode save file.
+
+**NOTE 2**: If after playing a specific sound ID, and then trying to load another sounds, the game doesn't play them, you may have to reset the game in order for it to work again. </br>It's recommended to do a savestate before starting playing the sounds if using an emulator to prevent having to reset if this ever happens.
 
 ## Build Requirements
 

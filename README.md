@@ -14,6 +14,8 @@ R = Stop sound
 L = Set sound ID to 0
 ```
 
+**NOTE**: If after playing a specific sound ID, and then trying to load another sounds, the game doesn't play them, you may have to reset the game in order for it to work again. </br>It's recommended to do a savestate before starting playing the sounds if using an emulator to prevent having to reset if this ever happens.
+
 ## Build Requirements
 
 ### The following tools are required to build:

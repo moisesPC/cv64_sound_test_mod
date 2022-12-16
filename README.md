@@ -2,7 +2,9 @@
 
 [Preview video](https://cdn.discordapp.com/attachments/1045877172956569641/1053098919275528242/1_video-converter.com.mp4)
 
-This is a mod for Castlevania (Nintendo 64) that adds a sound test feature in the pause menu. The controls are as follows:
+This is a mod for Castlevania (Nintendo 64) that adds a sound test feature in the pause menu. It plays the sound ID that is displayed (in decimal) in the GOLD counter.
+
+The controls are as follows:
 
 ```
 D-PAD Right = Advance +1 in sound ID

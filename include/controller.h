@@ -1,3 +1,6 @@
+#ifndef _CONTROLLER_H
+#define _CONTROLLER_H
+
 #include "n64types.h"
 
 /* Buttons */
@@ -46,3 +49,5 @@ typedef struct
     s16 joystick_angle;
     s16 joystick_held;		// TODO: Maybe search another name for this variable.
 } controller_struct;
+
+#endif

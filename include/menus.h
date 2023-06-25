@@ -1,3 +1,6 @@
+#ifndef _MENUS_H
+#define _MENUS_H
+
 // Current opened submenu.
 
 enum menu_ID
@@ -6,3 +9,5 @@ enum menu_ID
     RENON_SHOP = 0xA,
     GAME_OVER = 0xE
 };
+
+#endif
